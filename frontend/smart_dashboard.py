@@ -1,5 +1,5 @@
 import streamlit as st
-import sys, os
+import sys,os
 
 # Ensure components package is importable
 components_path = os.path.join(os.path.dirname(__file__), "components")
@@ -22,3 +22,6 @@ elif choice == "KPI Analysis":
     kpi_uploader.kpi_ui()
 elif choice == "Policy Summarizer":
     policy_summarizer.policy_ui()
+
+
+
